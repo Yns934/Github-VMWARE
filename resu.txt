@@ -1,0 +1,11 @@
+Résumé rapide
+Quand tu veux synchroniser ton travail avec GitHub :
+
+powershell
+Copier
+Modifier
+git status
+git add .
+git commit -m "Description des modifications"
+git pull origin main --rebase
+git push origin main
